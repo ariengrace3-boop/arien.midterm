@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   line-height: 1.6;
+   color: #ec9393;
+}
+/* Navigation Menu */
+nav {
+   background-color: #0857a6;
+   padding: 1rem;
+   text-align: center;
+}
+nav a {
+   color: rgb(126, 201, 255);
+   text-decoration: none;
+   margin: 0 15px;
+   font-weight: bold;
+}
+/* Hover Effect Requirement */
+nav a:hover {
+   color: #98f8f2;
+   text-decoration: underline;
+}
+/* Layout Spacing */
+section {
+   padding: 20px;
+   max-width: 800px;
+   margin: auto;
+}
+header {
+   background: #dc75ec;
+   padding: 2rem;
+   text-align: center;
+}
+footer {
+   text-align: center;
+   padding: 1rem;
+   background: #2c3e50;
+   color: rgb(53, 250, 234);
+   margin-top: 20px;
+}
+/* Simple Flexbox for Projects */
+.project-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+.project-card {
+   border: 1px solid #f991d3;
+   padding: 10px;
+   width: 200px;
+}

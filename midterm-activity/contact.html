@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Contact
-        </title>
-    </head>
-    <body>
-        <h1>This is Contact page. Hello World</h1>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </body>
+<head>
+    <title>Contact - Arieniee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html" class="active">Contact</a>
+</nav>
+
+<div class="container">
+    <h1>Contact Me</h1>
+
+    <p><strong>Name:</strong> Arien Grace Alforque Monin</p>
+    <p><strong>Address:</strong> Purok Samno, 552 North Poblacion, City of Naga, Cebu, Philippines 6037</p>
+    <p><strong>Phone Number:</strong> 09765250223</p>
+    <p><strong>Personal Email:</strong> ariengrace3@gmail.com</p>
+    <p><strong>School Email:</strong> ariengrace.monin@cit.edu</p>
+
+    <h2>Send Me a Message</h2>
+    <form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+</div>
+
+</body>
 </html>
